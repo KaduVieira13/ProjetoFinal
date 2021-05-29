@@ -118,21 +118,21 @@ namespace ProjetoFinal
 
         static void division()
         {
-            double numero1,numero2, resultado;
+            decimal numero1,numero2, resultado;
 
                 Console.Write("digite um numero: ");
-                numero1 = Convert.ToDouble(Console.ReadLine());
+                numero1 = Convert.ToDecimal(Console.ReadLine());
 
                 Console.Write("digite um numero: ");
-                numero2 = Convert.ToDouble(Console.ReadLine());
+                numero2 = Convert.ToDecimal(Console.ReadLine());
 
                 while(numero2 == 0)
-                {
+                 {
                    
-                   Console.WriteLine($"{numero2} não é um divisor...Digite um numero válido");
-                   numero2 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine($"{numero2} não é um divisor...Digite um numero válido");
+                    numero2 = Convert.ToDecimal(Console.ReadLine());
             
-                }
+                 }
                 
                 resultado =  numero1 / numero2 ;
                 Console.WriteLine($"A divisão de {numero1} / {numero2} é = {resultado}");
