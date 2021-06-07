@@ -6,7 +6,7 @@ namespace ProjetoFinal
     {
         static void Main(string[] args)
         {
-            string opcao, sair = "";
+           string opcao, sair = "" ;
 
 
             do
@@ -99,8 +99,10 @@ namespace ProjetoFinal
 
             } while (sair != "N" && sair != "Nao");
 
+          
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("Obrigado por utilizar o  programa, Compartilhe com seus amigos! :)");
+            Console.WriteLine("Obrigado por utilizar o programa!!!");
+            Console.WriteLine("Compartilhe com seus amigos! :)");
             Console.ResetColor();
 
         }
@@ -117,7 +119,7 @@ namespace ProjetoFinal
 
             resultado = numero1 + numero2;
             Console.BackgroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine($"A SOMA DE {numero1}+{numero2} É= {resultado}.");
+            Console.WriteLine($"A SOMA DE {numero1}+{numero2} É = {resultado}.");
             Console.ResetColor();
         }
 
@@ -219,7 +221,10 @@ namespace ProjetoFinal
 
         static void Sobre()
         {
-            Console.WriteLine("Versão 1.0.0 ");
+            Console.WriteLine("Calculadora Versão 1.0.0.");
+            Console.WriteLine("Programa desenvolvido para a matéria de PC1 da EtecAb.");
+            Console.WriteLine("Programador responsável pelo projeto: Carlos Eduardo.");
+            Console.WriteLine("Página do GitHub: https://github.com/KaduVieira13");
         }
 
         static void optionsMenu()
@@ -235,7 +240,7 @@ namespace ProjetoFinal
             Console.WriteLine("-------------------------------------------");
             Console.ResetColor();
             Console.WriteLine();
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.Write("Selecione a opção desejada: ");
             Console.ResetColor();
 
