@@ -97,7 +97,7 @@ namespace ProjetoFinal
 
 
 
-            } while (sair != "N" && sair != "Nao");
+            } while (sair != "N" && sair != "NAO");
 
           
             Console.ForegroundColor = ConsoleColor.DarkGreen;
