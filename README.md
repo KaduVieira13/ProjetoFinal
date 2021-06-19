@@ -27,6 +27,6 @@ Final do programa:
 
 Baixe o arquivo abaixo.
 
-[📚 Download do arquivo .zip](dist\Calculadora1.0.zip)
+[📚 Download do arquivo .zip](dist\Calculadora1.0.zipcopy2.zip)
 
 ---
