@@ -240,7 +240,7 @@ namespace ProjetoFinal
             Console.WriteLine("-------------------------------------------");
             Console.ResetColor();
             Console.WriteLine();
-            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.Write("Selecione a opção desejada: ");
             Console.ResetColor();
 
